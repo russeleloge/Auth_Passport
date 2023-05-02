@@ -11,7 +11,9 @@ describe('ForgotPasswordComponent', () => {
       declarations: [ ForgotPasswordComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(ForgotPasswordComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

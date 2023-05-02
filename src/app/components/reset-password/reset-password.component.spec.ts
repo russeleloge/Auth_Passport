@@ -11,7 +11,9 @@ describe('ResetPasswordComponent', () => {
       declarations: [ ResetPasswordComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(ResetPasswordComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
